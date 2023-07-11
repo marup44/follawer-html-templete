@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.hero-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 50px;
+}
+
+.hero-area {
+  background: rgba(229, 84, 115, 0.1);
+}
+
+.left {
+  flex: 1;
+}
+
+.h-heading {
+  font-size: 80px;
+  font-weight: 800;
+  color: #272727;
+}
+
+.h-para {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  color: #272727;
+}
+
+.horo-btn {
+  border-radius: 8px;
+  background: #e55473;
+  padding: 15px 30px;
+  border: none;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.right {
+  flex: 1;
+}
+
+.hero-img {
+  width: 635px;
+  height: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.featured-area {
+  padding: 100px 0;
+}
+
+.section-heading {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.s-heading {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.s-para {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 20px;
+}
+
+.featured-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.item {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 300;
+  border-radius: 300px 300px 0px 0px;
+}
+
+.pink {
+  background: rgba(167, 33, 98, 0.15);
+}
+
+.light {
+  background: rgba(5, 151, 160, 0.15);
+}
+
+.yello {
+  background: rgba(71, 125, 17, 0.15);
+}
+
+.item img {
+  width: 300px;
+  height: 400px;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.item h5 {
+  color: #272727;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+  cursor: pointer;
+  background-color: #fff;
+  padding: 20px 0;
+}
+
+.support-area {
+  padding: 80px 100px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.support-item {
+  text-align: center;
+}
+
+.support-item h6 {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.hot-dell-area {
+  background: rgba(229, 84, 115, 0.05);
+  padding: 50px 0;
+}
+
+.dell-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.dell-content .left {
+  flex: 1;
+  text-align: center;
+}
+
+.hot-dell {
+  color: #272727;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.hot-dell span {
+  color: #e55473;
+}
+
+.hot-dell-para {
+  margin-top: 20px;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.hot-dell-btn {
+  border-radius: 8px;
+  background: #e55473;
+  padding: 15px 30px;
+  border: none;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.dell-content .right {
+  flex: 1;
+  text-align: center;
+}
+
+.instagram {
+  padding: 100px 0;
+}
+
+.phota-area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.subscribe-area {
+  background: url("../Flower\ Asset/Rectangle 9.png");
+  background-size: cover;
+  padding: 100px 0;
+  margin-top: 100px;
+}
+
+.subscribe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.subscribe input {
+  width: 80%;
+  border-radius: 8px;
+  background: #fff;
+  padding: 15px;
+  border: none;
+  outline: none;
+}
+.subscribe button {
+  width: 20%;
+  border-radius: 8px;
+  background: #e55473;
+  padding: 15px;
+  border: none;
+  font-style: normal;
+  font-weight: 700;
+  color: #fff;
+}
+
+.footer{
+    text-align: center;
+    padding: 100px 0;
+    background: #000;
+    color: #fff;
+}
+
+.f-logo{
+    font-size: 48px;
+font-style: normal;
+font-weight: 800;
+}
+.f-logo span{
+    color: #e55473;
+}
+.f-para{
+    font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+margin-bottom: 20px;
+}
+
+.copyright{
+    color: rgba(255, 255, 255, 0.40);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+}
